@@ -2,6 +2,8 @@
 
 Welcome to **Best Cars Dealership**, your go-to place for the best cars in North America! We deal in the sale of both domestic and imported cars at affordable prices. Explore our dealership online to learn more about us and get in touch!
 
+![Best Deals Dealership](https://github.com/Willie-Conway/xrwvm-fullstack_developer_capstone/blob/58c2fc47522c8d4f6cc0e195ebc46fec66042758/Screenshots/Best%20Cars%20Dealership.gif)
+
 ## Features 📑
 - **Home Page**: View our main dealership page 🏠
 - **About Us**: Learn about our dealership’s mission and values 📜
