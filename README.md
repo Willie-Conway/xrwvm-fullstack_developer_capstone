@@ -77,9 +77,9 @@ The **Contact Us** page provides multiple ways for customers to get in touch wit
 
 ## Screenshots 📸
 
-- **Home Page**: ![Home Page Screenshot](assets/home_page.png)
-- **About Us Page**: ![About Us Page Screenshot](assets/about_us.png)
-- **Contact Us Page**: ![Contact Us Page Screenshot](assets/contact_us.png)
+- **Home Page**: ![Home Page Screenshot](https://github.com/Willie-Conway/xrwvm-fullstack_developer_capstone/blob/735f4194467bb434ff76cab439d3339529c33bce/Screenshots/Home.png)
+- **About Us Page**: ![About Us Page Screenshot](https://github.com/Willie-Conway/xrwvm-fullstack_developer_capstone/blob/735f4194467bb434ff76cab439d3339529c33bce/Screenshots/about_us.png)
+- **Contact Us Page**: ![Contact Us Page Screenshot](https://github.com/Willie-Conway/xrwvm-fullstack_developer_capstone/blob/735f4194467bb434ff76cab439d3339529c33bce/Screenshots/contact_us.png)
 
 ## Contributing 🤝
 
