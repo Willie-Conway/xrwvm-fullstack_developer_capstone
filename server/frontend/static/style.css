@@ -11,6 +11,7 @@ img{
   margin-right:5%;
   margin-top: 1%;
   margin-bottom: 1%;
+  
 }
 
 .row{
@@ -23,8 +24,31 @@ img{
   padding:20px;
 }
 
+.col{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    margin: auto;
+    margin-top: 1%;
+    max-width: 50%;
+}
+
+.col1{
+    border-right: 2px solid black;
+    justify-content: center;
+    align-self: center;
+}
+
+span.col2{
+    justify-content: center;
+    margin: auto;
+    align-self: center;
+    text-align: center;        /* Center-align the text */
+}
+
 .container{
   justify-content: center;
+  
 }
 .details{
   font-size: 20px;
@@ -123,4 +147,10 @@ img{
     border-radius:50px;
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
+}
+
+p.blue-txt {
+    padding: 0;
+    margin: 0;
+    color: rgb(41, 156, 228);
 }
