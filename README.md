@@ -17,7 +17,7 @@ To run this project locally, you'll need:
 - Django
 - Virtual Environment (optional but recommended)
 
-### Steps to Run Locally 👇
+### Steps to Run Locally 👇🏿
 
 1. **Clone the repository:**
     ```bash
@@ -83,7 +83,7 @@ The **Contact Us** page provides multiple ways for customers to get in touch wit
 - **About Us Page**: ![About Us Page Screenshot](https://github.com/Willie-Conway/xrwvm-fullstack_developer_capstone/blob/735f4194467bb434ff76cab439d3339529c33bce/Screenshots/about_us.png)
 - **Contact Us Page**: ![Contact Us Page Screenshot](https://github.com/Willie-Conway/xrwvm-fullstack_developer_capstone/blob/735f4194467bb434ff76cab439d3339529c33bce/Screenshots/contact_us.png)
 
-## Contributing 🤝
+## Contributing 🫱🏿‍🫲🏿
 
 We welcome contributions to improve this project! Feel free to fork this repository and submit pull requests. If you have suggestions or issues, open an issue in this repo.
 
