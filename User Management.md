@@ -1,6 +1,8 @@
 
 # 🚗 **Best Car Deals- User Management** 👨🏿‍💻
 
+![User Management](https://github.com/Willie-Conway/xrwvm-fullstack_developer_capstone/blob/c15693aa972f35033c7b8901ab84b3f7eb01ef2b/Screenshots/User%20Management.gif)
+
 Welcome to the **Best Car Deals- User Management**! This repository contains a Django backend with a React frontend for managing users, including features like **Registration**, **Login**, and **Logout**. This guide will walk you through setting up and using the application. 🚀
 
 ## 🛠️ **Features**
