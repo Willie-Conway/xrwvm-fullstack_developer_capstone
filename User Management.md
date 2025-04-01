@@ -119,9 +119,9 @@ Welcome to the **Best Car Deals- User Management**! This repository contains a D
 
 2. **Screenshots** 📸:
    - Take screenshots after **signing up**, **logging in**, and **logging out**. Name them accordingly:
-     - `signup.jpg` or `signup.png`
-     - `login.jpg` or `login.png`
-     - `logout.jpg` or `logout.png`
+     - **Signing Up**: ![Signing Up Screenshot](https://github.com/Willie-Conway/xrwvm-fullstack_developer_capstone/blob/a0b0927b7a2548a3b5ff32960aad03f5c71837f1/Screenshots/sign-up.png)
+     - **Logging In**: ![Logging In Screenshot](https://github.com/Willie-Conway/xrwvm-fullstack_developer_capstone/blob/a0b0927b7a2548a3b5ff32960aad03f5c71837f1/Screenshots/login.png)
+     - **Logging Out**: ![Logging Out Screenshot](https://github.com/Willie-Conway/xrwvm-fullstack_developer_capstone/blob/a0b0927b7a2548a3b5ff32960aad03f5c71837f1/Screenshots/logout.jpg)
 
 ---
 
