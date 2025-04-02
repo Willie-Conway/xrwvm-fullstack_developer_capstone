@@ -1,12 +1,14 @@
-# 👨🏿‍💻 Best Cars Dealership - Build CarModel and CarMake Django Models 🚙
-
-Welcome to the **Best Cars Dealership - Build CarModel and CarMake Django Models**! This project is built using **Django** for the backend and provides an API for managing **car models** and **dealership reviews**. It's designed for a seamless user experience in handling car data and user authentication.
-
-
+Certainly! Here's a refined version of the `README.md` that incorporates the requested details and organization:
 
 ---
 
-## 🔧 Features
+# 👨🏿‍💻 **Best Cars Dealership - Build CarModel and CarMake Django Models** 🚙
+
+Welcome to the **Best Cars Dealership** project! This application is built using **Django** and serves as a simple platform for managing **car models** and **dealership reviews**. Users can view car listings, add reviews, and manage their accounts.
+
+---
+
+## 🔧 **Features**
 
 - **User Authentication**: Register, login, and log out functionality 🔑
 - **Car Listings**: Display a list of car makes and models 🚗
@@ -15,16 +17,16 @@ Welcome to the **Best Cars Dealership - Build CarModel and CarMake Django Models
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ **Technologies Used**
 
 - **Backend**: Django 3.2 ⚙️
 - **Database**: SQLite (default for Django) 🗄️
-- **Frontend**: (Optional) For future enhancements, HTML, CSS, and JavaScript will be used 🎨
+- **Frontend**: (Optional) Future enhancements will use HTML, CSS, and JavaScript 🎨
 - **API**: RESTful API for communication 📡
 
 ---
 
-## ⚡ Setup Instructions
+## ⚡ **Setup Instructions**
 
 ### Step 1: Clone the Repository
 
@@ -62,16 +64,32 @@ You can access the project in your browser at [http://localhost:8000](http://loc
 
 ---
 
-## 🚀 API Endpoints
+## 🚀 **API Endpoints**
 
 - **POST `/register`**: User registration (username, password, first name, last name, email)
 - **POST `/login`**: User login (username, password)
 - **POST `/logout`**: User logout
-- **GET `/get_cars`**: Get list of available car models and makes
+- **GET `/get_cars`**: Get a list of available car models and makes
 
 ---
 
-## 👨🏿‍💻 Contributors
+## 🖼️ **Screenshots for Peer Review**
+
+- **Car and Model List**: A screenshot of the list of car models and makes.
+  - File name: `cars.jpg` or `cars.png`.
+
+- **Car Models in Django Admin**: A screenshot of the car models section in the Django Admin interface.
+  - File name: `car_models.jpg` or `car_models.png`.
+
+- **Admin Login**: A screenshot after logging in to the Django Admin.
+  - File name: `admin_login.jpg` or `admin_login.png`.
+
+- **Admin Logout**: A screenshot of the admin logout page, which redirects to the login page.
+  - File name: `admin_logout.jpg` or `admin_logout.png`.
+
+---
+
+## 👨🏿‍💻 **Contributors**
 
 - **Willie Conway** - Developer 👨🏿‍💻
 
@@ -79,14 +97,19 @@ Feel free to open an issue or submit a pull request if you'd like to contribute!
 
 ---
 
-## 📜 License
+## 📜 **License**
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 📢 Acknowledgments
+## 📢 **Acknowledgments**
 
 - Thanks to **Django** for providing a robust web framework 🖤
 - Inspiration from various tutorials on building RESTful APIs 🌐
 
+---
+
+### Additional Notes:
+
+- Make sure to take the required screenshots mentioned above and save them with the correct filenames.
