@@ -75,9 +75,9 @@ You can access the project in your browser at [http://localhost:8000](http://loc
 
 ---
 
-## 🧑‍💻 Contributors
+## 👨🏿‍💻 Contributors
 
-- **Willie Conway** - Developer 👨‍💻
+- **Willie Conway** - Developer 👨🏿‍💻
 
 Feel free to open an issue or submit a pull request if you'd like to contribute! 🤝
 
