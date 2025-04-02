@@ -2,11 +2,7 @@
 
 Welcome to the **Best Cars Dealership - Build CarModel and CarMake Django Models**! This project is built using **Django** for the backend and provides an API for managing **car models** and **dealership reviews**. It's designed for a seamless user experience in handling car data and user authentication.
 
----
 
-## 🌐 Live Demo
-
-You can try out the live demo [here]() 🚀
 
 ---
 
