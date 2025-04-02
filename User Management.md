@@ -1,5 +1,5 @@
 
-# 🚗 **Best Cars Dealership - User Management** 👨🏿‍💻
+# 🚗 **Best Cars Dealership - User Management** 👥👨🏿‍💻
 
 ![User Management](https://github.com/Willie-Conway/xrwvm-fullstack_developer_capstone/blob/c15693aa972f35033c7b8901ab84b3f7eb01ef2b/Screenshots/User%20Management.gif)
 
