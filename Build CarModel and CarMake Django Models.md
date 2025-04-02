@@ -3,6 +3,9 @@
 
 Welcome to the **Best Cars Dealership** project! This application is built using **Django** and serves as a simple platform for managing **car models** and **dealership reviews**. Users can view car listings, add reviews, and manage their accounts.
 
+![Build CarModel and CarMake Django Models.gif](https://github.com/Willie-Conway/xrwvm-fullstack_developer_capstone/blob/265bce3c0e1eb253ee32777bbb10d9dbb44437eb/Screenshots/Build%20CarModel%20and%20CarMake%20Django%20Models.gif)
+
+
 ---
 
 ## 🔧 **Features**
