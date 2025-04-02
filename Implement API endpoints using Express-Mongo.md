@@ -1,4 +1,4 @@
-# Best Cars Dealership - Implement API endpoints using Express-Mongo 📍🚀
+# 👨🏿‍💻 Best Cars Dealership - Implement API endpoints using Express-Mongo 📍🚗
 
 Welcome to the Best Cars Dealership - Implement API endpoints using Express-Mongo Project! In this project, we built a web application using **React**, **Node.js**, and **MongoDB**. The application provides various API endpoints using **Express** and **Mongoose** to interact with a MongoDB database. This file explains how to run the application and interact with the API endpoints.
 
@@ -86,25 +86,25 @@ Once you see the server start successfully, you can begin testing the API endpoi
    ```
    GET /fetchReviews/dealer/29
    ```
-   ![dealer_review.png](dealer_review.png)
+   ![dealer_review.png](https://github.com/Willie-Conway/xrwvm-fullstack_developer_capstone/blob/6cd9ee5b4541702119e3eca79d915f1df15c7c1d/Screenshots/dealer_review.png)
 
 2. **Get all dealerships:**
    ```
    GET /fetchDealers
    ```
-   ![dealerships.png](dealerships.png)
+   ![dealerships.png](https://github.com/Willie-Conway/xrwvm-fullstack_developer_capstone/blob/6cd9ee5b4541702119e3eca79d915f1df15c7c1d/Screenshots/dealerships.png)
 
 3. **Get details for a specific dealer:**
    ```
    GET /fetchDealer/3
    ```
-   ![dealer_details.png](dealer_details.png)
+   ![dealer_details.png](https://github.com/Willie-Conway/xrwvm-fullstack_developer_capstone/blob/6cd9ee5b4541702119e3eca79d915f1df15c7c1d/Screenshots/dealer_details.png)
 
 4. **Get dealerships from a specific state (e.g., Kansas):**
    ```
    GET /fetchDealers/Kansas
    ```
-   ![kansasDealers.png](kansasDealers.png)
+   ![kansasDealers.png](https://github.com/Willie-Conway/xrwvm-fullstack_developer_capstone/blob/6cd9ee5b4541702119e3eca79d915f1df15c7c1d/Screenshots/kansasDealers.png)
 
 ---
 
