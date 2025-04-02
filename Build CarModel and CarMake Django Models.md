@@ -1,6 +1,3 @@
-Certainly! Here's a refined version of the `README.md` that incorporates the requested details and organization:
-
----
 
 # 👨🏿‍💻 **Best Cars Dealership - Build CarModel and CarMake Django Models** 🚙
 
@@ -108,8 +105,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Thanks to **Django** for providing a robust web framework 🖤
 - Inspiration from various tutorials on building RESTful APIs 🌐
 
----
 
-### Additional Notes:
-
-- Make sure to take the required screenshots mentioned above and save them with the correct filenames.
