@@ -73,16 +73,16 @@ You can access the project in your browser at [http://localhost:8000](http://loc
 ## 🖼️ **Screenshots for Peer Review**
 
 - **Car and Model List**: A screenshot of the list of car models and makes.
-  - File name: `cars.jpg` or `cars.png`.
+  ![Car and Model List](https://github.com/Willie-Conway/xrwvm-fullstack_developer_capstone/blob/d5da88f699cede94099ca5dbbe2a8b74f556b091/Screenshots/cars.png)
 
 - **Car Models in Django Admin**: A screenshot of the car models section in the Django Admin interface.
-  - File name: `car_models.jpg` or `car_models.png`.
+ ![Car Models in Django Admin](https://github.com/Willie-Conway/xrwvm-fullstack_developer_capstone/blob/d5da88f699cede94099ca5dbbe2a8b74f556b091/Screenshots/car%20models.png)
 
 - **Admin Login**: A screenshot after logging in to the Django Admin.
-  - File name: `admin_login.jpg` or `admin_login.png`.
+  ![Admin Login](https://github.com/Willie-Conway/xrwvm-fullstack_developer_capstone/blob/d5da88f699cede94099ca5dbbe2a8b74f556b091/Screenshots/admin_login.png)
 
 - **Admin Logout**: A screenshot of the admin logout page, which redirects to the login page.
-  - File name: `admin_logout.jpg` or `admin_logout.png`.
+  ![Admin Logout](https://github.com/Willie-Conway/xrwvm-fullstack_developer_capstone/blob/d5da88f699cede94099ca5dbbe2a8b74f556b091/Screenshots/admin_logout.png)
 
 ---
 
