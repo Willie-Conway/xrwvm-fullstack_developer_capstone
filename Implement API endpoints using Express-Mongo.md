@@ -1,5 +1,7 @@
 # 👨🏿‍💻 Best Cars Dealership - Implement API endpoints using Express-Mongo 📍🚗
 
+![Implement API endpoints using Express-Mongo.gif](https://github.com/Willie-Conway/xrwvm-fullstack_developer_capstone/blob/858c1abbccef117f58b9057e87846406ceded513/Screenshots/Implement%20API%20endpoints%20using%20Express-Mongo.gif)
+
 Welcome to the Best Cars Dealership - Implement API endpoints using Express-Mongo Project! In this project, we built a web application using **React**, **Node.js**, and **MongoDB**. The application provides various API endpoints using **Express** and **Mongoose** to interact with a MongoDB database. This file explains how to run the application and interact with the API endpoints.
 
 ## 👨🏿‍💻 Project Setup
