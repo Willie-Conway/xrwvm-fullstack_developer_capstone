@@ -1,28 +1,18 @@
 # Uncomment the required imports before adding the code
 
-from django.shortcuts import render
-from django.http import HttpResponseRedirect, HttpResponse
 from django.contrib.auth.models import User
-from django.shortcuts import get_object_or_404, render, redirect
-from django.contrib.auth import logout
-from django.contrib import messages
-from datetime import datetime
-
 from django.http import JsonResponse
-from django.contrib.auth import login, authenticate
+from django.contrib.auth import login, logout, authenticate
 import logging
 import json
 from django.views.decorators.csrf import csrf_exempt
-from .models import CarMake, CarModel
 from .populate import initiate
+from .models import CarMake, CarModel
 from .restapis import get_request, analyze_review_sentiments, post_review
-
 
 # Get an instance of a logger
 logger = logging.getLogger(__name__)
 
-
-# Create your views here.
 
 # Create a `login_request` view to handle sign in request
 @csrf_exempt
@@ -40,25 +30,22 @@ def login_user(request):
         data = {"userName": username, "status": "Authenticated"}
     return JsonResponse(data)
 
-# Create a `logout_request` view to handle sign-out request
+
+# Create a `logout_request` view to handle sign out request
 def logout_request(request):
-    # Get the username of the logged-in user (before logout)
-    username = request.user.username if request.user.is_authenticated else ""
-
-    # Logout the user
-    logout(request)
-
-    # Return the username as JSON (empty if logged out)
-    data = {"userName": username}
-
-    return JsonResponse(data)
+    if request.method == 'POST':  # Logout via POST for better CSRF protection
+        logout(request)
+        return JsonResponse(
+            {"success": True, "message": "Logged out successfully"}
+        )
+    return JsonResponse(
+        {"success": False, "error": "Invalid request method"}, status=400
+    )
 
 
 # Create a `registration` view to handle sign up request
 @csrf_exempt
 def registration(request):
-    context = {}
-
     data = json.loads(request.body)
     username = data['userName']
     password = data['password']
@@ -66,25 +53,28 @@ def registration(request):
     last_name = data['lastName']
     email = data['email']
     username_exist = False
-    email_exist = False
+    # email_exist = False  # Remove unused variable
     try:
         # Check if user already exists
         User.objects.get(username=username)
         username_exist = True
-    except:
+    except Exception:  # Use specific exception and remove unused whitespace
         # If not, simply log this is a new user
         logger.debug("{} is new user".format(username))
 
     # If it is a new user
     if not username_exist:
         # Create user in auth_user table
-        user = User.objects.create_user(username=username, first_name=first_name, last_name=last_name,password=password, email=email)
-        # Login the user and redirect to list page
+        user = User.objects.create_user(
+            username=username, first_name=first_name,
+            last_name=last_name, password=password, email=email
+        )
+        # Login the user and redirect to the list page
         login(request, user)
-        data = {"userName":username,"status":"Authenticated"}
+        data = {"userName": username, "status": "Authenticated"}
         return JsonResponse(data)
-    else :
-        data = {"userName":username,"error":"Already Registered"}
+    else:
+        data = {"username": username, "error": "Already Registered"}
         return JsonResponse(data)
 
 
@@ -92,24 +82,29 @@ def registration(request):
 def get_cars(request):
     count = CarMake.objects.filter().count()
     print(count)
-    if(count == 0):
+    if count == 0:
         initiate()
     car_models = CarModel.objects.select_related('car_make')
     cars = []
     for car_model in car_models:
-        cars.append({"CarModel": car_model.name, "CarMake": car_model.car_make.name})
-    return JsonResponse({"CarModels":cars})
-
+        cars.append(
+            {
+                "CarModel": car_model.name,
+                "CarMake": car_model.car_make.name
+            }
+        )
+    return JsonResponse({"CarModels": cars})
 
 
 # Method to get list of dealerships
 def get_dealerships(request, state="All"):
-    if(state == "All"):
+    if state == "All":
         endpoint = "/fetchDealers"
     else:
-        endpoint = "/fetchDealers/"+state
+        endpoint = "/fetchDealers/" + state
     dealerships = get_request(endpoint)
-    return JsonResponse({"status":200,"dealers":dealerships})
+    return JsonResponse(
+        {"status": 200, "dealers": dealerships})
 
 
 # Method to view reviews for individual dealer
