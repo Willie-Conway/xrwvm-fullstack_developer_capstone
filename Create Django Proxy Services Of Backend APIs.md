@@ -2,6 +2,9 @@
 
 Welcome to the **Best Cars Dealership - Create Django Proxy Services Of Backend APIs**! This API allows users to interact with a database of car dealerships and customer reviews. It includes various routes for fetching, adding, and filtering reviews and dealerships. 🚗🌟
 
+
+![Create Django Proxy Services Of Backend APIs.gif](https://github.com/Willie-Conway/xrwvm-fullstack_developer_capstone/blob/5aab3ce2c041a7eabfa9e4ec23d664ac83f736a9/Screenshots/Create%20Django%20Proxy%20Services%20Of%20Backend%20APIs.gif)
+
 ---
 
 ## 📝 Table of Contents
