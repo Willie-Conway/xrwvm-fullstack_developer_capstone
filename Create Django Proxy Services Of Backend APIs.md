@@ -120,7 +120,7 @@ Once the server is running, you can interact with the following API routes:
 
 Here’s a screenshot of the **Sentiment Analyzer** feature that provides sentiment analysis based on the customer reviews:
 
-![Sentiment Analyzer]()
+![Sentiment Analyzer](https://github.com/Willie-Conway/xrwvm-fullstack_developer_capstone/blob/2772982967daa034b30462689f70a618b7c86271/Screenshots/sentiment_analyzer.png)
 
 ---
 
