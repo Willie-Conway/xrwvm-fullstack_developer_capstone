@@ -1,7 +1,7 @@
 
 # 🏢 **Best Cars Dealership - Add Dynamic pages** - Fullstack Capstone Project 👨🏿‍💻🚗
 
-[Add dynamic pages](https://github.com/Willie-Conway/xrwvm-fullstack_developer_capstone/blob/d7c8c665bed31a29526dce727ab7f01b852d0004/Screenshots/Add%20dynamic%20pages.mp4)
+![Add dynamic pages](Screenshots/Add dynamic pages.mp4)
 
 Welcome to the **Best Cars Dealership - Add Dynamic pages**! In this project, we have created a web application that allows users to view a list of car dealerships, see details for each dealer, and add reviews. The app integrates sentiment analysis to show if a review is positive, neutral, or negative.
 
