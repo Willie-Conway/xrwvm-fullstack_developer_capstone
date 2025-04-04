@@ -48,10 +48,15 @@ jobs:
       - name: Install JSHint
         run: npm install jshint --global
 
+      - name: Create or Update JSHint Configuration
+        run: |
+          # Create a valid JSON .jshintrc configuration file
+          echo '{
+            "esversion": 6
+          }' > .jshintrc
+
       - name: Run Linter
         run: |
-          # Add JSHint ES version declaration for modern JavaScript features
-          echo "/* jshint esversion: 6 */" > .jshintrc
           # This command finds all JavaScript files recursively and runs JSHint on them
           find ./server/database -name "*.js" -exec jshint {} +
           echo "Linted all the js files successfully"
