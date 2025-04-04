@@ -225,15 +225,23 @@ These instructions will guide you through setting up and running the project loc
 
 - **Dealer List**:
     - View a list of all dealers in a table format. **Screenshot**: `get_dealers.png`
+      ![Dealer List](https://github.com/Willie-Conway/xrwvm-fullstack_developer_capstone/blob/85c57594e26de0733887ef3dd283f34869237bea/Screenshots/get_dealers.png)
     
 - **Dealer Reviews**:
     - View reviews for a specific dealer. **Screenshot**: `dealer_id_reviews.png`
+      ![Dealer Reviews](https://github.com/Willie-Conway/xrwvm-fullstack_developer_capstone/blob/85c57594e26de0733887ef3dd283f34869237bea/Screenshots/dealer_id_reviews.png)
     
 - **Post a Review**:
     - Add a review for a dealer. **Screenshot**: `dealership_review_submission.jpg`
+      ![Post a Review](https://github.com/Willie-Conway/xrwvm-fullstack_developer_capstone/blob/85c57594e26de0733887ef3dd283f34869237bea/Screenshots/dealership_review_submission.png)
 
 - **Dealer Details (Logged In)**:
     - View dealer details after logging in. **Screenshot**: `get_dealers_loggedin.png`
+      ![Dealer Details (Logged In)](https://github.com/Willie-Conway/xrwvm-fullstack_developer_capstone/blob/85c57594e26de0733887ef3dd283f34869237bea/Screenshots/get_dealers_loggedin.png)
+
+- **Dealer Details (Review Added)**:
+    - View dealer details along with the review you added, including sentiment analysis. **Screenshot**: `added_review.png`
+      ![Dealer Details (Review Added)](https://github.com/Willie-Conway/xrwvm-fullstack_developer_capstone/blob/85c57594e26de0733887ef3dd283f34869237bea/Screenshots/added_review.png)
 
 ---
 
