@@ -1,6 +1,9 @@
 
 # 🚗 Best Cras Dealership - Containerize your application 🚀
 
+![Containerize your application](https://github.com/Willie-Conway/xrwvm-fullstack_developer_capstone/blob/6d5df879364425cd9c34ea574936ad13d6cc496a/Screenshots/Containerize%20your%20application.gif)
+
+
 Welcome to the **Best Cras Dealership - Containerize your application**! This project involves building and deploying a full-stack application using **Django** for the backend and **React** for the frontend. We've containerized the Django application and deployed it on **Kubernetes** using **IBM Cloud** to adopt a hybrid cloud strategy. This enables the application to be easily scaled and managed in both private and public clouds.
 
 ---
